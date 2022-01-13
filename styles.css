@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Chakra+Petch&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(240,128,128,1) 21%, rgba(135,206,235,1) 66%, rgba(70,130,180,1) 100%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px; 
+
+}
+
+.header-img{
+    height: 75px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 32px
+}
+
+.header-menu-item{
+    padding: 10px;
+    color: black;
+    font-family: 'Chakra Petch', sans-serif;
+    transition: background-color 1s;
+}
+.header-menu-item:hover{
+    background-color: #F08080;
+    border-radius: 3px;
+    box-shadow: 2px 3px 2px rgba(0,0,0,0.25);
+}
+
+.header-menu-item-insta{
+    background-color: #000;
+    color: rgba(255,255,255,1);
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    transition: background-color 1s;
+}
+
+.header-menu-item-insta:hover{
+    background-color: #CD5C5C;
+    color: #FFF;
+    box-shadow: 2px 3px 2px rgba(0,0,0,0.25);
+
+}
+
+.conteudo {
+    border-top: 0.5px solid #808080;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+ 
+}
+
+.conteudo-principal-escrito-titulo{
+    font-size: 64px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.conteudo-principal-escrito-btn{
+    background-color: #ECD6C4;
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    font-family: 'Cantarell', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.conteudo-principal-escrito-btn:hover{
+    background: linear-gradient(90deg, rgba(135,206,250,1) 34%, rgba(173,216,230,1) 55%, rgba(255,255,255,1) 100%);
+    color: rgb(27, 27, 27);
+    cursor: pointer;
+}
+
+.conteudo-principal-img{
+    height: 430px;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 90px;
+    margin-top: 15px;
+}
+
+.conteudo-secundário{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundário-titulo{
+    border-top: 5px solid #808080 ;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundári-paragrafo{
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff; 
+}
+
+.footer{
+    padding: 32px; 
+    border-top: 0.5px solid #808080 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-img{
+    height: 48px;
+}
+
+.footer-copy{
+    font-family: 'Cantarell', sans-serif;
+}
+
+.footer-link{
+    color: #CD5C5C; 
+    font-weight: bold;
+}
